@@ -1,8 +1,5 @@
 ## makeCachematrix creates an R object that stores a matrix and its inverse
 
-a<-makeCacheMatrix (rbind(c(1,-1/4),c(-1/4,1)))
-b<- makeCacheMatrix (rbind(c(1,-1/4),c(-1/4,1)))
-
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
     set <- function(y) {
